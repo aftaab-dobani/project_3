@@ -1,7 +1,9 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import { useState } from 'react'
+import logo from './logo.svg';
+import './App.css';
+import Nav from './components/HOME PAGE/Nav'
+import Jumbotron from './components/HOME PAGE/Jumbotron'
+import Login from './components/HOME PAGE/Login'
+
 
 function App() {
   const adminUser = {
@@ -22,14 +24,9 @@ function App() {
 
   return (
     <div className="App">
-    Hello 
-      <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Welcome to React</h2>
-      </div>
-      <p className="App-intro">
-        To get started, edit <code>src/App.js</code> and save to reload.
-      </p>
+      <Nav />
+      <Jumbotron />
+      <Login />
     </div>
   );
 }
