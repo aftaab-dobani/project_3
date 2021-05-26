@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './components/Login/Nav'
 import Jumbotron from './components/Login/Jumbotron'
 import Login from './components/Login/Login'
+import mainpage from './Main Page/mainpage';
 
 
 // function App() {
@@ -27,6 +28,7 @@ function App() {
       <Nav />
       <Jumbotron />
       <Login />
+      {/* <Mainpage /> */}
     </div>
   );
 }
