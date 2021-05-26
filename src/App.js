@@ -1,12 +1,19 @@
 import './App.css';
 import {BrowserRouter} as Router, /route, switch} from 'React-Router-Dom';
+
+//Imports from the Login Page
 import Nav from './components/Login/Nav'
 import Jumbotron from './components/Login/Jumbotron'
 import Login from './components/Login/Login'
-import Creation from './components/Creation/Creation';
-import Homepage from './components/Home/Homepage'
+
+//Imports from the Home Page
+import Homepage from './components/Home/hnav'
 import Table from './components/Home/Table'
 import Slides from './components/Home/Slides'
+
+//Imports from the Card Creation Page
+import Creation from './components/Creation/Creation';
+
 import { Route, Router } from 'react-router';
 // function App() {
 //   const adminUser = {

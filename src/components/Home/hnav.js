@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import logo from '../images/logo.png'
 
 
-function Homepage() {
+function hnav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
@@ -45,4 +45,4 @@ function Homepage() {
   );
 }
 
-export default Homepage;
+export default hnav;
