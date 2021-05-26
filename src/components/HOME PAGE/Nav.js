@@ -20,25 +20,25 @@ function Nav() {
         <span className="navbar-toggler-icon"></span>
       </button>
 
-      {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <a className="nav-link" href="#work">
-              My Work
+              About Us
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#contact">
-              Contact
+              Our Mission
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="./images/resume.pdf">
-              Resume
+              Customer Feedback
             </a>
           </li>
         </ul>
-      </div> */}
+      </div>
     </nav>
   );
 }
