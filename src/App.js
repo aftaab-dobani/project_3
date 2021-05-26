@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Nav from './components/HOME PAGE/Nav'
-import Jumbotron from './components/HOME PAGE/Jumbotron'
-import Login from './components/HOME PAGE/Login'
+import Nav from './components/Login/Nav'
+import Jumbotron from './components/Login/Jumbotron'
+import Login from './components/Login/Login'
 
 
 function App() {
