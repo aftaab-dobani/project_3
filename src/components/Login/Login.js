@@ -3,7 +3,7 @@ import './login.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 function Login() {
   return (
-    <div className="logincontainer">
+    <div className="container">
       <form>
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
