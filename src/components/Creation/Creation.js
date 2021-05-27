@@ -1,6 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-function mainpage() {
+
+function Creation() {
   return ( 
     <form className="row g-3">
   <div className="col-md-6">
@@ -49,4 +50,4 @@ function mainpage() {
   );
 }
 
-export default mainpage;
+export default Creation;

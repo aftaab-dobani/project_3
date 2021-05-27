@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import logo from '../images/logo.png'
 
 
-function hnav() {
+function Cnav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
@@ -31,7 +31,7 @@ function hnav() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#contact">
-              Create Tickets
+              Review Tickets
             </a>
           </li>
           <li className="nav-item">
@@ -45,4 +45,4 @@ function hnav() {
   );
 }
 
-export default hnav;
+export default Cnav;
